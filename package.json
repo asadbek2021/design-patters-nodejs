@@ -1,5 +1,12 @@
 {
   "devDependencies": {
-    "@types/node": "^20.5.8"
+    "@types/node": "^20.5.8",
+    "@types/superagent": "^4.1.18"
+  },
+  "scripts": {
+    "dev": "ts-node ./http-proxy.ts"
+  },
+  "dependencies": {
+    "superagent": "^8.1.2"
   }
 }
