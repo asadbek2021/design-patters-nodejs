@@ -16,3 +16,14 @@
 - Creating objects that can be modified only at creation time
 - Creating objects whose custom behavior can be defined only at creation time
 - Creating objects that can be initialized only once at creation time 
+
+4. <b> ``` Proxy ``` </b> - <em> A proxy is an object that controls access to another object, called the subject. The proxy and the subject have an identical interface, and this allows us to swap one for the other transparently.
+</em>
+    ![image](https://github.com/asadbek2021/design-patters-nodejs/assets/81373435/5f2d3e53-ca96-4a06-9686-4822e4fd1f17)
+
+5. <b> ``` Decorator ``` </b> - <em> Decorator is a structural design pattern that consists of dynamically augmenting the behavior of an existing object. It's different from classical inheritance because the behavior is not added to all the objects of the same class, but only to the instances that are explicitly decorated.
+</em>
+    ![image](https://github.com/asadbek2021/design-patters-nodejs/assets/81373435/67ea51a8-4f4a-420d-8602-a024a01a41db)
+
+6. <b> ``` Adapter ``` </b> - <em>  The Adapter pattern allows us to access the functionality of an object using a different interface. </em>
+    ![image](https://github.com/asadbek2021/design-patters-nodejs/assets/81373435/de700d83-b8e6-4acc-98e6-3a51e9a2c8ca)
