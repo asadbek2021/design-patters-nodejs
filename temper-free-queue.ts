@@ -35,7 +35,7 @@ class Queue {
 function enqueue(queue: QueueItem[], evenEmitter: EventEmitter) {
     const server = createServer((req, res) => {
         const query = parse(req.url!).query;
-        const parsedQuery = parseQuery(query!);
+        const parsedQuery = parseQuery(query ?? '');
         // push items on internal queue
         queue.push(...parsedQuery);
         //trigger event to active waiting dequeue

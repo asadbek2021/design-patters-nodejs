@@ -10,7 +10,6 @@ interface EnhancedConsole extends Console {
 }
 
 function enhanceConsole(console: Console): EnhancedConsole {
-
     const extraFuncs = {
         yellow: (...params) => console.log(FgYellow, ...params),
         green: (...params) => console.log(FgGreen, ...params),

@@ -4,7 +4,7 @@
     "@types/superagent": "^4.1.18"
   },
   "scripts": {
-    "dev": "ts-node ./http-proxy.ts"
+    "dev": "ts-node ./fs-adapter.ts"
   },
   "dependencies": {
     "superagent": "^8.1.2"
